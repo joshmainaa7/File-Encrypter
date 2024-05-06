@@ -9,8 +9,11 @@ Features:
 
 Key Generation: The tool generates a random encryption key using the Fernet.generate_key() function.
 Encryption: Users can encrypt their files by providing the input file path, output file path, and encryption key. The tool reads the contents of the input file, encrypts them using the provided key, and writes the encrypted data to the output file.
+
 Decryption: Encrypted files can be decrypted by providing the input (encrypted) file path, output file path, and encryption key. The tool reads the encrypted data from the input file, decrypts it using the provided key, and writes the decrypted data to the output file.
+
 Key Management: Users can save the generated encryption key to a file for later use and load it when needed for encryption or decryption.
+
 Usage:
 
 To encrypt a file: python file_encrypter.py encrypt input_file.txt encrypted_file.txt
